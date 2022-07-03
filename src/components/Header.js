@@ -7,7 +7,7 @@ function Header() {
     <div className="navbar-container">
       <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="/">MARVEL</Navbar.Brand>
+        <Navbar.Brand href="/proiect-practica">MARVEL</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
