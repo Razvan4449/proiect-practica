@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home'
 import Series from './components/Series'
 import Movies from './components/Movies'
@@ -8,7 +8,7 @@ import Movies from './components/Movies'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
      <Header />
       <Routes>
         <Route path="/proiect-practica" element={<Home />} /> 
@@ -16,7 +16,7 @@ function App() {
         <Route path="/proiect-practica/movies" element={<Movies />} /> 
         <Route path="*" element={<Home />} /> 
      </Routes>   
-   </BrowserRouter>
+   </HashRouter>
     )
 }
 

@@ -2,7 +2,7 @@
   "name": "proiect-practica",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://razvan4449.github.io/proiect-practica/",
+  "homepage": "https://razvan4449.github.io/proiect-practica",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
