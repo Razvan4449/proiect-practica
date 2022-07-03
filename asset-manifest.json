@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/proiect-practica/static/css/main.a8eadf41.css",
-    "main.js": "/proiect-practica/static/js/main.ab365ffa.js",
+    "main.js": "/proiect-practica/static/js/main.91b58579.js",
     "static/js/787.867cf4f2.chunk.js": "/proiect-practica/static/js/787.867cf4f2.chunk.js",
     "static/media/marvel-font.ttf": "/proiect-practica/static/media/marvel-font.b591a02639fbec825c33.ttf",
     "index.html": "/proiect-practica/index.html",
     "main.a8eadf41.css.map": "/proiect-practica/static/css/main.a8eadf41.css.map",
-    "main.ab365ffa.js.map": "/proiect-practica/static/js/main.ab365ffa.js.map",
+    "main.91b58579.js.map": "/proiect-practica/static/js/main.91b58579.js.map",
     "787.867cf4f2.chunk.js.map": "/proiect-practica/static/js/787.867cf4f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8eadf41.css",
-    "static/js/main.ab365ffa.js"
+    "static/js/main.91b58579.js"
   ]
 }
