@@ -8,12 +8,15 @@ import Movies from './components/Movies'
 
 function App() {
   return ( 
+    <div className='App'>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} /> 
         <Route path="/series" element={<Series />} /> 
         <Route path="/movies" element={<Movies />} /> 
         <Route path="*" element={<Home />} /> 
-     </Routes>   
+     </Routes>
+    </div>
     )
 }
 
