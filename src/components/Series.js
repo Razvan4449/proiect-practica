@@ -1,8 +1,7 @@
 import React from 'react'
 import Data from '../json-data/series.json'
-import {Col, Card, Row, Tabs, Tab} from 'react-bootstrap'
+import { Col, Card, Row } from 'react-bootstrap'
 import ReactStars from "react-rating-stars-component";
-import CardHeader from 'react-bootstrap/esm/CardHeader';
 
 function Series() {
 

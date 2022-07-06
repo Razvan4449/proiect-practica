@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card, Carousel} from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
 import Data from '../json-data/home.json'
 
 function Home() {
