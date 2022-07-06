@@ -8,6 +8,7 @@ function Series() {
   const ratingChanged = (newRating) => {
     console.log(newRating);
   };
+
   return (
    <div className='series-container'>
    <Row>
@@ -24,7 +25,7 @@ function Series() {
                 count={5}
                 onChange={ratingChanged}
                 size={24}
-                activeColor="#ffd700" />,
+                activeColor="#ffd700" />
             </Card.Footer>
           </Card.Body>
         </Card>

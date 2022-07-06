@@ -19,7 +19,7 @@
 
 .home-container {
     margin-top: 0px ;
-    background-color: rgba(91, 3, 3, 0.741);
+    background-color: rgba(241, 193, 193, 0.741);
 }
 
 .carousel-item img {
@@ -31,13 +31,37 @@
 .series-container {
     margin: 30px 50px;
 }
-.card{
-   
+
+.card {
     width: auto !important;
     height: 600px !important;
+    text-align: center;
 }
 
 .card-img-top {
-    height: 400px !important;
+    height: 480px !important;
+    width: 50% !important;
+    margin: auto !important;
+    padding-top: 20px;
 
+}
+
+.footer-container {
+    text-align: center;
+    font-family: 'Marvel';
+    font-size: 25px ;
+    background-color: #F0131E ;
+    border-top: solid black 5px;
+    height: 100px;
+    position: bottom;
+}
+
+.footer-container p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p {
+   position: relative;
+   bottom: -30px;
 }
