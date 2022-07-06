@@ -1,22 +1,20 @@
 import React from 'react'
 import Header from './components/Header'
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from './components/Home'
 import Series from './components/Series'
 import Movies from './components/Movies'
 
 
 function App() {
-  return (
-    <HashRouter>
-     <Header />
+  return ( 
       <Routes>
-        <Route path="/proiect-practica" element={<Home />} /> 
-        <Route path="/proiect-practica/series" element={<Series />} /> 
-        <Route path="/proiect-practica/movies" element={<Movies />} /> 
+      <Header />
+        <Route path="/" element={<Home />} /> 
+        <Route path="/series" element={<Series />} /> 
+        <Route path="/movies" element={<Movies />} /> 
         <Route path="*" element={<Home />} /> 
      </Routes>   
-   </HashRouter>
     )
 }
 
