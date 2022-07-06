@@ -9,7 +9,6 @@ import Movies from './components/Movies'
 function App() {
   return ( 
       <Routes>
-      <Header />
         <Route path="/" element={<Home />} /> 
         <Route path="/series" element={<Series />} /> 
         <Route path="/movies" element={<Movies />} /> 
