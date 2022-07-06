@@ -13,8 +13,8 @@ function Header() {
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            <Nav.Link href="/#/series">Series</Nav.Link>
-            <Nav.Link href="/#/movies">Movies</Nav.Link>
+            <Nav.Link href="/proiect-practica/#/series">Series</Nav.Link>
+            <Nav.Link href="/proiect-practica/#/movies">Movies</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
